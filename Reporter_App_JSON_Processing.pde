@@ -1,5 +1,5 @@
 /* 
-This is a quick sketch to illustrate the basics of loading a JSON file exported out of Report App (@ReporterApp) into Processing. 
+This is a quick sketch to illustrate the basics of loading a JSON file exported out of Report App (@GetReporter) into Processing. 
 This sketch shows you how to parse "Yes/No" type questions and count the number of responses for each answer. 
 I've included a small amount of error checking based on the kinds of issues I've run across in using the JSON exported data.
 There is a more fulsome implementation of this code which uses the date time of each answer to create a histogram 
@@ -87,8 +87,7 @@ void parseYesNoQuestions(String _q) {
       if (resp.hasKey("questionPrompt")) {  // test to make sure there is a question prompt associated with this response. I've found a few times that responses are missing question prompts!
         questionPrompt = resp.getString("questionPrompt");
         // println("resp question: " + question);
-      }
-      else {
+      } else {
         missingQuestionPromptCount += 1;
         // println("Possible Missing Question Prompt at " + sdts); // using the date time stamp as a way to help find the error in the JSON. Go go search function!
       }
