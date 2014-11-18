@@ -1,4 +1,4 @@
-Reporter_App_JSON_Processing
+Reporter App JSON Processing
 ============================
 
 Parsing Reporter App's JSON exported data in Processing
