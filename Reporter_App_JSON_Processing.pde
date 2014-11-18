@@ -1,30 +1,22 @@
-// This is a quick sketch to illustrate the basics of loading a JSON file exported out of Report App (@ReporterApp) into Processing. 
-// This sketch shows you how to parse "Yes/No" type questions and count the number of responses for each answer. 
-// I've included a small amount of error checking based on the kinds of issues I've run across in using the JSON exported data.
-// There is a more fulsome implementation of this code which uses the date time of each answer to create a histogram 
-// showing the frequency of times you've answered yes or no to a question during a period of time in the day. The code
-// is online here:
-// https://github.com/sspboyd/Reporter_App_Histogram
-// 
-// Stephen Boyd, 2014
-// @sspboyd
+/* 
+This is a quick sketch to illustrate the basics of loading a JSON file exported out of Report App (@ReporterApp) into Processing. 
+This sketch shows you how to parse "Yes/No" type questions and count the number of responses for each answer. 
+I've included a small amount of error checking based on the kinds of issues I've run across in using the JSON exported data.
+There is a more fulsome implementation of this code which uses the date time of each answer to create a histogram 
+showing the frequency of times you've answered yes or no to a question during a period of time in the day. The code
+is online here:
+https://github.com/sspboyd/Reporter_App_Histogram
 
-JSONObject raj;
-JSONArray snapshots;
-
-PFont detailF;
-
-String question; // This will be the exact text of the Yes/No question to be parsed.
-
+Stephen Boyd
+@sspboyd
+sspboyd.ca
+*/
 
 //Declare Globals
-int rSn; // randomSeed number. put into var so can be saved in file name. defaults to 47
-final float PHI = 0.618033989;
+JSONObject raj; // This is the variable that we load the JSON file into. It's not much use to us after that.
+JSONArray snapshots; // This is the variable that holds all the 'snapshots' recorded by Reporter App. We'll use this variable a lot.
+String question; // This will be the exact text of the Yes/No questions to be parsed.
 
-
-// Declare Positioning Variables
-float margin;
-float PLOT_X1, PLOT_X2, PLOT_Y1, PLOT_Y2, PLOT_W, PLOT_H;
 
 
 /*////////////////////////////////////////
@@ -34,28 +26,17 @@ float PLOT_X1, PLOT_X2, PLOT_Y1, PLOT_Y2, PLOT_W, PLOT_H;
 void setup() {
   size(400, 300);
 
-  detailF = createFont("Helvetica", 14);
-
-  margin = width * pow(PHI, 7);
-  println("margin: " + margin);
-  PLOT_X1 = margin;
-  PLOT_X2 = width-margin;
-  PLOT_Y1 = margin;
-  PLOT_Y2 = height - (margin + margin);
-  PLOT_W = PLOT_X2 - PLOT_X1;
-  PLOT_H = PLOT_Y2 - PLOT_Y1;
-
-  rSn = 47; // 29, 18;
-  randomSeed(rSn);
-
-  // Global Vars to hold the JSON data from Reporter App
-  raj = loadJSONObject("reporter-export-20140903.json");
-  snapshots = raj.getJSONArray("snapshots");
-
+  // initialize global vars to hold the JSON data from Reporter App
+  raj = loadJSONObject("reporter-export-20140903.json"); // this file has to be in your /data directory. I've included a small sample file.
+  
+  // The next line of code is the first of many JSON Arrays and Objects we'll be creating. 
+  // This one grabs the 'snapshots' out of the raj JSONObject variable
+  snapshots = raj.getJSONArray("snapshots"); 
 
   noLoop();
   println("setup done: " + nf(millis() / 1000.0, 1, 2));
 }
+
 
 
 /*////////////////////////////////////////
@@ -65,16 +46,22 @@ void setup() {
 void draw() {
   background(255);
 
-  // Pick one of your Yes/No questions
+  // Remember to change the question variable to reflect your questions when you're using your own data.
   question = "Have you been productive over the last couple of hours?";
   parseYesNoQuestions(question);
   
   question = "Did you eat after 9pm?";
   parseYesNoQuestions(question);
 
-  renderSig();
+  fill(0);
+  text("Check the console for the output from this sketch. \n @sspboyd", 15, height/2-20);
 }
 
+
+
+/*////////////////////////////////////////
+ My methods
+ ////////////////////////////////////////*/
 
 void parseYesNoQuestions(String _q) {
   String q = _q;
@@ -118,48 +105,9 @@ void parseYesNoQuestions(String _q) {
       }
     }
   }
-
   // Print out the results!
   println("\n\nQuestion: " + q); // added a couple extra line breaks at the beginning to aid readability
   println("Yes responses: " + yesCount);
   println("No responses: " + noCount);
   println("Responses missing question prompts (result of a bug?): " + missingQuestionPromptCount);
-
- } 
-
-
-void renderSig(){
-  fill(100);
-  textFont(detailF);
-  text("sspboyd", PLOT_X2-textWidth("sspboyd"), PLOT_Y2 + margin);
-}
-
-void keyPressed() {
-  if (key == 'S') screenCap(".tif");
-}
-
-/*////////////////////////////////////////
- UTILITY FUNCTIONS
- ////////////////////////////////////////*/
-
-String generateSaveImgFileName(String fileType) {
-  String fileName;
-  // save functionality in here
-  String outputDir = "out/";
-  String sketchName = getSketchName() + "-";
-  String randomSeedNum = "rS" + rSn + "-";
-  String dateTimeStamp = "" + year() + nf(month(), 2) + nf(day(), 2) + nf(hour(), 2) + nf(minute(), 2) + nf(second(), 2);
-  fileName = outputDir + sketchName + dateTimeStamp + randomSeedNum + fileType;
-  return fileName;
-}
-
-void screenCap(String fileType) {
-  String saveName = generateSaveImgFileName(fileType);
-  save(saveName);
-  println("Screen shot saved to: " + saveName);
-}
-
-String getSketchName() {
-  String[] path = split(sketchPath, "/");
-  return path[path.length-1];
-}
+ }
