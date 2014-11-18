@@ -1,0 +1,1002 @@
+{
+  "snapshots" : [
+    {
+      "battery" : 0.35,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T00:09:52-0400",
+        "longitude" : -73.55424602390033,
+        "latitude" : 45.50405893778937,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue de la Capitale",
+          "postalCode" : "H2Y 2A9",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Vieux Montreal",
+          "subThoroughfare" : "109",
+          "locality" : "Montréal",
+          "name" : "109 Rue de la Capitale",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "firedNotification" : {
+        "missed" : 0,
+        "notificationType" : 0
+      },
+      "reportImpetus" : 2,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -52.32672,
+        "peak" : -47.28746
+      },
+      "photoSet" : {
+        "photos" : [
+          {
+            "brightnessValue" : 0,
+            "meteringMode" : 0,
+            "focalLengthIn35mm" : 0,
+            "sceneCaptureType" : 0,
+            "exposureMode" : 0,
+            "resolutionUnit" : 0,
+            "assetUrl" : "assets-library:\/\/asset\/asset.PNG?id=7CA24B5F-A190-4E59-B217-79EB3D6B7C3B&ext=PNG",
+            "isoSpeed" : 0,
+            "exposureTime" : 0,
+            "shutterSpeed" : 0,
+            "depth" : 8,
+            "latitude" : 0,
+            "fNumber" : 0,
+            "sensingMode" : 0,
+            "longitude" : 0,
+            "apertureValue" : 0,
+            "focalLength" : 0,
+            "altitude" : 0,
+            "exposureProgram" : 0,
+            "pixelWidth" : 1136,
+            "dateTime" : "2014-09-02T23:57:49-0400",
+            "flash" : 0,
+            "pixelHeight" : 640,
+            "whiteBalance" : 0
+          },
+          {
+            "brightnessValue" : 0,
+            "meteringMode" : 0,
+            "focalLengthIn35mm" : 0,
+            "sceneCaptureType" : 0,
+            "exposureMode" : 0,
+            "resolutionUnit" : 0,
+            "assetUrl" : "assets-library:\/\/asset\/asset.PNG?id=2A8C5A70-BA72-47F5-B239-40D6AD8FC48F&ext=PNG",
+            "isoSpeed" : 0,
+            "exposureTime" : 0,
+            "shutterSpeed" : 0,
+            "depth" : 8,
+            "latitude" : 0,
+            "fNumber" : 0,
+            "sensingMode" : 0,
+            "longitude" : 0,
+            "apertureValue" : 0,
+            "focalLength" : 0,
+            "altitude" : 0,
+            "exposureProgram" : 0,
+            "pixelWidth" : 1136,
+            "dateTime" : "2014-09-02T23:49:16-0400",
+            "flash" : 0,
+            "pixelHeight" : 640,
+            "whiteBalance" : 0
+          },
+          {
+            "brightnessValue" : 0,
+            "meteringMode" : 0,
+            "focalLengthIn35mm" : 0,
+            "sceneCaptureType" : 0,
+            "exposureMode" : 0,
+            "resolutionUnit" : 0,
+            "assetUrl" : "assets-library:\/\/asset\/asset.PNG?id=6D81156B-E691-45EF-A402-0CDC5026816E&ext=PNG",
+            "isoSpeed" : 0,
+            "exposureTime" : 0,
+            "shutterSpeed" : 0,
+            "depth" : 8,
+            "latitude" : 0,
+            "fNumber" : 0,
+            "sensingMode" : 0,
+            "longitude" : 0,
+            "apertureValue" : 0,
+            "focalLength" : 0,
+            "altitude" : 0,
+            "exposureProgram" : 0,
+            "pixelWidth" : 1136,
+            "dateTime" : "2014-09-02T23:49:09-0400",
+            "flash" : 0,
+            "pixelHeight" : 640,
+            "whiteBalance" : 0
+          }
+        ]
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 0,
+        "windDirection" : "East",
+        "tempF" : 66,
+        "precipTodayIn" : 0.17,
+        "windGustKPH" : 0,
+        "feelslikeC" : 18.9,
+        "visibilityMi" : 9,
+        "feelslikeF" : 66,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.75,
+        "pressureMb" : 1007,
+        "relativeHumidity" : "99%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 4,
+        "windKPH" : 0,
+        "windDegrees" : 90,
+        "tempC" : 18.9,
+        "weather" : "Overcast",
+        "uv" : 0,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T00:09:50-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Méchant Boeuf Bar & Brasserie",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T12:45:42-0400",
+              "longitude" : -73.55461397162108,
+              "latitude" : 45.50388879478922,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4ae8c5a1f964a52027b221e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?"
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "tokens" : [
+            "Bill Saffron",
+            "Dan Ortiz"
+          ]
+        },
+        {
+          "questionPrompt" : "What are you doing?",
+          "tokens" : [
+            "Drinks",
+            "Talking"
+          ]
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "battery" : 0.15,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T01:35:27-0400",
+        "longitude" : -73.55420880874691,
+        "latitude" : 45.50405265925991,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue de la Capitale",
+          "postalCode" : "H2Y 2A9",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Vieux Montreal",
+          "subThoroughfare" : "109",
+          "locality" : "Montréal",
+          "name" : "109 Rue de la Capitale",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "reportImpetus" : 0,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -33.31905,
+        "peak" : -27.37045
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 1.7,
+        "windDirection" : "NNW",
+        "tempF" : 66.59999999999999,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 19.2,
+        "visibilityMi" : 9,
+        "feelslikeF" : 66.59999999999999,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.76,
+        "pressureMb" : 1008,
+        "relativeHumidity" : "99%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 2.7,
+        "windDegrees" : 337,
+        "tempC" : 19.2,
+        "weather" : "Overcast",
+        "uv" : 0,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T01:35:26-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Hôtel Nelligan",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T12:45:42-0400",
+              "longitude" : -73.55450379502466,
+              "latitude" : 45.50412511400295,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4ad4c06af964a520ebf820e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?",
+          "tokens" : [
+            "Hotel room"
+          ]
+        },
+        {
+          "questionPrompt" : "Who are you with?"
+        },
+        {
+          "questionPrompt" : "What are you doing?",
+          "tokens" : [
+            "Watching news",
+            "TV"
+          ]
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "answeredOptions" : [
+            "No"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "No"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "battery" : 0.3,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T01:49:43-0400",
+        "longitude" : -73.55421323720545,
+        "latitude" : 45.50403718625618,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue de la Capitale",
+          "postalCode" : "H2Y 2A9",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Vieux Montreal",
+          "subThoroughfare" : "109",
+          "locality" : "Montréal",
+          "name" : "109 Rue de la Capitale",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "reportImpetus" : 3,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -33.19421,
+        "peak" : -27.23737
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 1.7,
+        "windDirection" : "NNW",
+        "tempF" : 66.59999999999999,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 19.2,
+        "visibilityMi" : 9,
+        "feelslikeF" : 66.59999999999999,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.76,
+        "pressureMb" : 1008,
+        "relativeHumidity" : "99%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 2.7,
+        "windDegrees" : 337,
+        "tempC" : 19.2,
+        "weather" : "Overcast",
+        "uv" : 0,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T01:49:42-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Hôtel Nelligan",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T12:45:42-0400",
+              "longitude" : -73.55450379502466,
+              "latitude" : 45.50412511400295,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4ad4c06af964a520ebf820e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?",
+          "tokens" : [
+            "Hotel room"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "No"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "numericResponse" : "3",
+          "questionPrompt" : "How many coffees did you have today?"
+        },
+        {
+          "numericResponse" : "90",
+          "questionPrompt" : "Did you play the piano today? For how long?"
+        },
+        {
+          "questionPrompt" : "Did you eat after 9pm?",
+          "answeredOptions" : [
+            "No"
+          ]
+        }
+      ]
+    },
+    {
+      "battery" : 0.95,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T08:25:37-0400",
+        "longitude" : -73.55427222917196,
+        "latitude" : 45.50409605999609,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue de la Capitale",
+          "postalCode" : "H2Y 2A9",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Vieux Montreal",
+          "subThoroughfare" : "109",
+          "locality" : "Montréal",
+          "name" : "109 Rue de la Capitale",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "reportImpetus" : 4,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -29.93634,
+        "peak" : -24.94181
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 3.2,
+        "windDirection" : "NNW",
+        "tempF" : 67.5,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 19.7,
+        "visibilityMi" : 9,
+        "feelslikeF" : 67.5,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.87,
+        "pressureMb" : 1011,
+        "relativeHumidity" : "93%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 5.1,
+        "windDegrees" : 337,
+        "tempC" : 19.7,
+        "weather" : "Scattered Clouds",
+        "uv" : 1,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T08:25:36-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "How did you sleep?",
+          "answeredOptions" : [
+            "Great"
+          ]
+        },
+        {
+          "questionPrompt" : "How do you feel about today?",
+          "tokens" : [
+            "Positive"
+          ]
+        },
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Hôtel Nelligan",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T12:45:42-0400",
+              "longitude" : -73.55450379502466,
+              "latitude" : 45.50412511400295,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4ad4c06af964a520ebf820e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?"
+        }
+      ]
+    },
+    {
+      "battery" : 0.95,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T08:26:23-0400",
+        "longitude" : -73.5543486990711,
+        "latitude" : 45.50411971319663,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue Saint-Paul O",
+          "postalCode" : "H2Y 1Z3",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Vieux Montreal",
+          "subThoroughfare" : "100",
+          "locality" : "Montréal",
+          "name" : "100 Rue Saint-Paul O",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "reportImpetus" : 0,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -32.89122,
+        "peak" : -23.18026
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 3.2,
+        "windDirection" : "NNW",
+        "tempF" : 67.5,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 19.7,
+        "visibilityMi" : 9,
+        "feelslikeF" : 67.5,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.87,
+        "pressureMb" : 1011,
+        "relativeHumidity" : "93%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 5.1,
+        "windDegrees" : 337,
+        "tempC" : 19.7,
+        "weather" : "Scattered Clouds",
+        "uv" : 1,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T08:26:22-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Hôtel Nelligan",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T12:45:42-0400",
+              "longitude" : -73.55450379502466,
+              "latitude" : 45.50412511400295,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4ad4c06af964a520ebf820e3"
+          }
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "tokens" : [
+            "Mark Denton",
+            "Dylan Green",
+            "Dan Oritz"
+          ]
+        },
+        {
+          "questionPrompt" : "What are you doing?",
+          "tokens" : [
+            "Eating",
+            "Breakfast",
+            "Talking"
+          ]
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Which room are you in?"
+        }
+      ]
+    },
+    {
+      "battery" : 0.85,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T08:53:38-0400",
+        "longitude" : -73.55011735748016,
+        "latitude" : 45.51780967621372,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Av Viger E",
+          "postalCode" : "H2L",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Ville-Marie",
+          "locality" : "Montréal",
+          "name" : "Av Viger E",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "firedNotification" : {
+        "missed" : 0,
+        "notificationType" : 0
+      },
+      "reportImpetus" : 2,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -40.69949,
+        "peak" : -28.57125
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 1,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 0,
+        "windDirection" : "West",
+        "tempF" : 69.40000000000001,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 20.8,
+        "visibilityMi" : 9,
+        "feelslikeF" : 69.40000000000001,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.87,
+        "pressureMb" : 1011,
+        "relativeHumidity" : "89%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 0,
+        "windDegrees" : 270,
+        "tempC" : 20.8,
+        "weather" : "Scattered Clouds",
+        "uv" : 1,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T08:53:36-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Maison de Radio-Canada",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T14:03:40-0400",
+              "longitude" : -73.55119916148219,
+              "latitude" : 45.51833547527851,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4af96f69f964a520bf1122e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?",
+          "tokens" : [
+            "Meeting Room"
+          ]
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "tokens" : [
+            "Dan Oritz",
+            "Marianne Vega"
+          ]
+        },
+        {
+          "questionPrompt" : "What are you doing?",
+          "tokens" : [
+            "Meeting"
+          ]
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        }
+      ]
+    },
+    {
+      "battery" : 1,
+      "location" : {
+        "verticalAccuracy" : 10,
+        "timestamp" : "2014-09-03T11:07:26-0400",
+        "longitude" : -73.55095134936893,
+        "latitude" : 45.51809330465486,
+        "course" : 0,
+        "placemark" : {
+          "thoroughfare" : "Rue De la gauchetière E",
+          "postalCode" : "H2L 2N7",
+          "subAdministrativeArea" : "Montreal",
+          "subLocality" : "Ville-Marie",
+          "subThoroughfare" : "1166",
+          "locality" : "Montréal",
+          "name" : "1166 Rue De la gauchetière E",
+          "country" : "Canada",
+          "administrativeArea" : "QC"
+        },
+        "horizontalAccuracy" : 65,
+        "speed" : -1
+      },
+      "firedNotification" : {
+        "missed" : 0,
+        "notificationType" : 0
+      },
+      "reportImpetus" : 2,
+      "steps" : -1,
+      "audio" : {
+        "avg" : -47.87328,
+        "peak" : -42.7389
+      },
+      "photoSet" : {
+        "photos" : [
+          {
+            "meteringMode" : 5,
+            "brightnessValue" : 8.608667,
+            "focalLengthIn35mm" : 33,
+            "longitudeRef" : "W",
+            "sceneCaptureType" : 0,
+            "exposureMode" : 0,
+            "resolutionUnit" : 2,
+            "make" : "Apple",
+            "software" : "7.1.1",
+            "assetUrl" : "assets-library:\/\/asset\/asset.JPG?id=80CFE4BB-C161-4941-AA53-8E6C68BA967B&ext=JPG",
+            "isoSpeed" : 80,
+            "exposureTime" : 0.000996016,
+            "shutterSpeed" : 9.971567,
+            "depth" : 8,
+            "latitude" : 45.51812,
+            "fNumber" : 2.4,
+            "sensingMode" : 2,
+            "longitude" : 73.55091,
+            "apertureValue" : 2.526069,
+            "latitudeRef" : "N",
+            "focalLength" : 4.12,
+            "altitude" : 32.72338,
+            "exposureProgram" : 2,
+            "model" : "iPhone 5",
+            "dateTime" : "2014-09-03T08:58:49-0400",
+            "pixelWidth" : 4720,
+            "flash" : 0,
+            "orientation" : 1,
+            "pixelHeight" : 2494,
+            "whiteBalance" : 0
+          },
+          {
+            "meteringMode" : 5,
+            "brightnessValue" : 8.036662,
+            "focalLengthIn35mm" : 33,
+            "longitudeRef" : "W",
+            "sceneCaptureType" : 0,
+            "exposureMode" : 0,
+            "resolutionUnit" : 2,
+            "make" : "Apple",
+            "software" : "7.1.1",
+            "assetUrl" : "assets-library:\/\/asset\/asset.JPG?id=A16C72E3-0068-427D-98CE-8A763FF9A224&ext=JPG",
+            "isoSpeed" : 50,
+            "exposureTime" : 0.002309469,
+            "shutterSpeed" : 8.759766,
+            "depth" : 8,
+            "latitude" : 45.51814,
+            "fNumber" : 2.4,
+            "sensingMode" : 2,
+            "longitude" : 73.55089,
+            "apertureValue" : 2.526069,
+            "latitudeRef" : "N",
+            "focalLength" : 4.12,
+            "altitude" : 33.94957,
+            "exposureProgram" : 2,
+            "model" : "iPhone 5",
+            "dateTime" : "2014-09-03T08:58:31-0400",
+            "pixelWidth" : 3264,
+            "flash" : 16,
+            "orientation" : 3,
+            "pixelHeight" : 2448,
+            "whiteBalance" : 0
+          }
+        ]
+      },
+      "sectionIdentifier" : "1-2014-9-3",
+      "sync" : 0,
+      "connection" : 0,
+      "background" : 0,
+      "dwellStatus" : 0,
+      "draft" : 0,
+      "weather" : {
+        "windMPH" : 0,
+        "windDirection" : "NE",
+        "tempF" : 73.40000000000001,
+        "precipTodayIn" : 0,
+        "windGustKPH" : 0,
+        "feelslikeC" : 23,
+        "visibilityMi" : 9,
+        "feelslikeF" : 73.40000000000001,
+        "stationID" : "IQUEBECM34",
+        "latitude" : 45.522469,
+        "windGustMPH" : 0,
+        "pressureIn" : 29.91,
+        "pressureMb" : 1013,
+        "relativeHumidity" : "77%",
+        "longitude" : -73.54949999999999,
+        "precipTodayMetric" : 0,
+        "windKPH" : 0,
+        "windDegrees" : 45,
+        "tempC" : 23,
+        "weather" : "Clear",
+        "uv" : 6,
+        "dewpointC" : 19,
+        "visibilityKM" : 14.5
+      },
+      "date" : "2014-09-03T11:07:22-0400",
+      "responses" : [
+        {
+          "questionPrompt" : "Where are you?",
+          "locationResponse" : {
+            "text" : "Maison de Radio-Canada",
+            "location" : {
+              "verticalAccuracy" : -1,
+              "timestamp" : "2014-09-02T14:03:40-0400",
+              "longitude" : -73.55119916148219,
+              "latitude" : 45.51833547527851,
+              "course" : 0,
+              "horizontalAccuracy" : 0,
+              "speed" : -1
+            },
+            "foursquareVenueId" : "4af96f69f964a520bf1122e3"
+          }
+        },
+        {
+          "questionPrompt" : "Which room are you in?",
+          "tokens" : [
+            "Meeting Room"
+          ]
+        },
+        {
+          "questionPrompt" : "Who are you with?",
+          "tokens" : [
+            "Marianna Vega"
+          ]
+        },
+        {
+          "questionPrompt" : "What are you doing?",
+          "tokens" : [
+            "Meeting"
+          ]
+        },
+        {
+          "questionPrompt" : "Are you working?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Have you been productive over the last couple of hours?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        },
+        {
+          "questionPrompt" : "Has today been productive so far?",
+          "answeredOptions" : [
+            "Yes"
+          ]
+        }
+      ]
+    }
+  ],
+  "questions" : [
+    {
+      "prompt" : "Where are you?"
+    },
+    {
+      "prompt" : "Who are you with?",
+      "placeholderString" : "No One"
+    },
+    {
+      "prompt" : "Are you working?"
+    },
+    {
+      "prompt" : "What did you learn today?"
+    },
+    {
+      "prompt" : "What are you doing?"
+    },
+    {
+      "prompt" : "How many coffees did you have today?",
+      "placeholderString" : "1"
+    },
+    {
+      "prompt" : "How did you sleep?"
+    },
+    {
+      "prompt" : "Did you play the piano today? For how long?"
+    },
+    {
+      "prompt" : "How many drinks did you have today?"
+    },
+    {
+      "prompt" : "Did you eat after 9pm?"
+    },
+    {
+      "prompt" : "Has today been productive so far?",
+      "allowMultipleSelection" : 0
+    },
+    {
+      "prompt" : "How do you feel about today?"
+    },
+    {
+      "prompt" : "Have you been productive over the last couple of hours?"
+    },
+    {
+      "prompt" : "Which room are you in?"
+    },
+    {
+      "prompt" : "How many minutes did you meditate today?",
+      "placeholderString" : "0"
+    },
+    {
+      "prompt" : "How many push ups today?",
+      "placeholderString" : "0"
+    },
+    {
+      "prompt" : "How many pull-ups today?"
+    }
+  ]
+}

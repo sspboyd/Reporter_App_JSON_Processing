@@ -1,0 +1,41 @@
+#################################
+# Java generated files          #
+#################################
+*.class
+*.java
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#################################
+# OS generated files            #
+#################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+#################################
+# Processing files              #
+#################################
+sketch.properties
+applet
+application.macosx
+build-tmp/
+web-export/
+
+#################################
+# Some specific to my workflow  #
+#################################
+out/
+savedImages/
+srcFiles/
+code/
+*.jpg
+*.JPG
+*.tiff
+*.TIFF
+*.png
+*.PNG
