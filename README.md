@@ -14,4 +14,4 @@ https://github.com/sspboyd/Reporter_App_Histogram
 
 Stephen Boyd, 2014
 
-http//twitter.com/sspboyd | http://sspboyd.ca
+https://twitter.com/sspboyd | http://sspboyd.ca
