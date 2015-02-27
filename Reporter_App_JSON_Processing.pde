@@ -16,7 +16,7 @@ sspboyd.ca
 JSONObject raj; // This is the variable that we load the JSON file into. It's not much use to us after that.
 JSONArray snapshots; // This is the variable that holds all the 'snapshots' recorded by Reporter App. We'll use this variable a lot.
 String question; // This will be the exact text of the Yes/No questions to be parsed.
-
+PrintWriter output;
 
 
 /*////////////////////////////////////////
@@ -28,7 +28,9 @@ void setup() {
 
   // initialize global vars to hold the JSON data from Reporter App
   raj = loadJSONObject("reporter-export-20140903.json"); // this file has to be in your /data directory. I've included a small sample file.
-  
+  output = createWriter("answerTotals.tsv"); // load this file into excel afterwards  
+  output.print("Question\tYes Count\tNo Count\n");
+
   // The next line of code is the first of many JSON Arrays and Objects we'll be creating. 
   // This one grabs the 'snapshots' out of the raj JSONObject variable
   snapshots = raj.getJSONArray("snapshots"); 
@@ -52,6 +54,9 @@ void draw() {
   
   question = "Did you eat after 9pm?";
   parseYesNoQuestions(question);
+
+  output.flush();
+  output.close();
 
   fill(0);
   text("Check the console for the output from this sketch. \n @sspboyd", 15, height/2-20);
@@ -109,4 +114,6 @@ void parseYesNoQuestions(String _q) {
   println("Yes responses: " + yesCount);
   println("No responses: " + noCount);
   println("Responses missing question prompts (result of a bug?): " + missingQuestionPromptCount);
+  output.print(q + "\t" + yesCount + "\t" + noCount + "\n");
+
  }
